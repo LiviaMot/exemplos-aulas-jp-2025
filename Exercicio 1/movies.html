@@ -1,115 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- Crie uma página HTML com uma lista de filmes que você mais gosta, liste ao menos 10 filmes (Título, Diretor, duração, classificação indicativa e uma curiosidade) -->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Lista de Filmes</title>
   </head>
   <body>
+    <!-- Crie uma página HTML com uma lista de filmes que você mais gosta, liste ao menos 10 filmes (Título, Diretor, duração, classificação indicativa e uma curiosidade) -->
     <header>
-      <h1>🎥 Lista de Filmes</h1>
+      <h1>Lista de Filmes</h1>
     </header>
     <main>
-      <section>
-        <article>
-          <h2>O Mágico de Oz (1939)</h2>
-          <p><strong>Diretor:</strong> Victor Fleming</p>
-          <p><strong>Duração:</strong> 1h 42min</p>
-          <p><strong>Classificação Indicativa:</strong> Livre</p>
-          <p><strong>Curiosidade:</strong> Foi um dos primeiros filmes a usar Technicolor em cenas coloridas, contrastando com o preto e branco do início.</p>
+      <section class="movies-container">
+        <article class="movie-card">
+          <h2 class="title">O Mágico de Oz (1939)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Victor Fleming</p>
+            <p><strong>Duração:</strong> 1h 42min</p>
+            <p><strong>Classificação Indicativa:</strong> Livre</p>
+            <p><strong>Curiosidade:</strong> Foi um dos primeiros filmes a usar Technicolor em cenas coloridas, contrastando com o preto e branco do início.</p>
+          </div>
 
           <a href="https://youtu.be/njdreZRjvpc?si=M-zX8wSOLi_nD4k7" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Grease (1978)</h2>
-          <p><strong>Diretor:</strong> Randal Kleiser</p>
-          <p><strong>Duração:</strong> 1h 45min</p>
-          <p><strong>Classificação Indicativa:</strong> 12 anos</p>
-          <p><strong>Curiosidade:</strong> Uma das grandes marcas do filme a atitude debochada de vários personagens, muitas vezes representados mascando chicletes. Nesse caso, a característica não foi atuação. Segundo o Na Telinha, a produção disponibilizou 100 mil chicletes para o elenco durante as filmagens.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Grease (1978)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Randal Kleiser</p>
+            <p><strong>Duração:</strong> 1h 45min</p>
+            <p><strong>Classificação Indicativa:</strong> 12 anos</p>
+            <p><strong>Curiosidade:</strong> Uma das grandes marcas do filme a atitude debochada de vários personagens, muitas vezes representados mascando chicletes. Nesse caso, a característica não foi atuação. Segundo o Na Telinha, a produção disponibilizou 100 mil chicletes para o elenco durante as filmagens.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=qDKo8DNpwOw" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Piratas do Caribe: Navegando em Águas Misteriosas (2011)</h2>
-          <p><strong>Diretor:</strong> Rob Marshall</p>
-          <p><strong>Duração:</strong> 2h 21min</p>
-          <p><strong>Classificação Indicativa:</strong> 12 anos</p>
-          <p><strong>Curiosidade:</strong> É o quarto filme da saga e apresenta a sereia Syrena, além de ter filmagens em locais como Havaí e Porto Rico.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Piratas do Caribe: Navegando em Águas Misteriosas (2011)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Rob Marshall</p>
+            <p><strong>Duração:</strong> 2h 21min</p>
+            <p><strong>Classificação Indicativa:</strong> 12 anos</p>
+            <p><strong>Curiosidade:</strong> É o quarto filme da saga e apresenta a sereia Syrena, além de ter filmagens em locais como Havaí e Porto Rico.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=4aurNy7aBeI" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Resident Evil 2: Apocalipse (2004)</h2>
-          <p><strong>Diretor:</strong> Alexander Witt</p>
-          <p><strong>Duração:</strong> 1h 34min</p>
-          <p><strong>Classificação Indicativa:</strong> 16 anos</p>
-          <p><strong>Curiosidade:</strong> É o filme com maior número de referências e homenagens a série de jogos que deu origem aos filmes, como Alice fugindo dos tiros de helicóptero (Claire em CODE: Veronica), a personagem Jill, devidamente caracterizada, o monstro Nemesis, etc.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Resident Evil 2: Apocalipse (2004)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Alexander Witt</p>
+            <p><strong>Duração:</strong> 1h 34min</p>
+            <p><strong>Classificação Indicativa:</strong> 16 anos</p>
+            <p><strong>Curiosidade:</strong> É o filme com maior número de referências e homenagens a série de jogos que deu origem aos filmes, como Alice fugindo dos tiros de helicóptero (Claire em CODE: Veronica), a personagem Jill, devidamente caracterizada, o monstro Nemesis, etc.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=nzF3yoF7N_E" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>O Ódio Que Você Semeia (2018)</h2>
-          <p><strong>Diretor:</strong> George Tillman Jr.</p>
-          <p><strong>Duração:</strong> 2h 12min</p>
-          <p><strong>Classificação Indicativa:</strong> 14 anos</p>
-          <p><strong>Curiosidade:</strong> E as referências ao astro do rapper estão também no título do longa. "The Hate U Give", nome do filme em inglês, é a tradução da primeira parte da famosa sigla que o rapper popularizou no mundo: THUG LIFE. Mesmo muito ligado erroneamente a uma vida criminosa, o acrônimo significa que "o ódio que você semeia para as crianças, ferra todo mundo".</p>
+        
+        <article class="movie-card">
+          <h2 class="title">O Ódio Que Você Semeia (2018)</h2>
+          <div>
+            <p><strong>Diretor:</strong> George Tillman Jr.</p>
+            <p><strong>Duração:</strong> 2h 12min</p>
+            <p><strong>Classificação Indicativa:</strong> 14 anos</p>
+            <p><strong>Curiosidade:</strong> E as referências ao astro do rapper estão também no título do longa. "The Hate U Give", nome do filme em inglês, é a tradução da primeira parte da famosa sigla que o rapper popularizou no mundo: THUG LIFE. Mesmo muito ligado erroneamente a uma vida criminosa, o acrônimo significa que "o ódio que você semeia para as crianças, ferra todo mundo".</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=pI1hzqliZgQ" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Oito Mulheres e Um Segredo (2018)</h2>
-          <p><strong>Diretor:</strong> Gary Ross</p>
-          <p><strong>Duração:</strong> 1h 51min</p>
-          <p><strong>Classificação Indicativa:</strong> 14 anos</p>
-          <p><strong>Curiosidade:</strong> Spin-off de “Onze Homens e Um Segredo” com elenco feminino, incluindo Sandra Bullock e Cate Blanchett.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Oito Mulheres e Um Segredo (2018)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Gary Ross</p>
+            <p><strong>Duração:</strong> 1h 51min</p>
+            <p><strong>Classificação Indicativa:</strong> 14 anos</p>
+            <p><strong>Curiosidade:</strong> Spin-off de “Onze Homens e Um Segredo” com elenco feminino, incluindo Sandra Bullock e Cate Blanchett.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=MFWF9dU5Zc0" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>The Old Guard (2020)</h2>
-          <p><strong>Diretor:</strong> Gina Prince-Bythewood</p>
-          <p><strong>Duração:</strong> 2h 5min</p>
-          <p><strong>Classificação Indicativa:</strong> 16 anos</p>
-          <p><strong>Curiosidade:</strong> Assim que a narrativa está chegando ao fim, o grupo de guerreiros vai até um pub em Londres. No próprio filme, vemos placas afirmando que o local existe há 500 anos. E isso é verdade. O bar se chama “Prospect of Whitby”, e é um dos estabelecimentos mais antigos do mundo.
-          Ele foi restaurado apenas uma vez por conta de um incêndio no século XXI. Contudo, o piso e outras características dele continuam intactadas. Faz todo sentido uma equipe de imortais ir beber em um lugar tão antigo.
-          </p>
+        
+        <article class="movie-card">
+          <h2 class="title">The Old Guard (2020)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Gina Prince-Bythewood</p>
+            <p><strong>Duração:</strong> 2h 5min</p>
+            <p><strong>Classificação Indicativa:</strong> 16 anos</p>
+            <p><strong>Curiosidade:</strong> Assim que a narrativa está chegando ao fim, o grupo de guerreiros vai até um pub em Londres. No próprio filme, vemos placas afirmando que o local existe há 500 anos. E isso é verdade. O bar se chama “Prospect of Whitby”, e é um dos estabelecimentos mais antigos do mundo.
+            Ele foi restaurado apenas uma vez por conta de um incêndio no século XXI. Contudo, o piso e outras características dele continuam intactadas. Faz todo sentido uma equipe de imortais ir beber em um lugar tão antigo.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=Vm11TQppG8s" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Jogos Vorazes: A Esperança – Parte 2 (2015)</h2>
-          <p><strong>Diretor:</strong> Francis Lawrence</p>
-          <p><strong>Duração:</strong> 2h 17min</p>
-          <p><strong>Classificação Indicativa:</strong> 14 anos</p>
-          <p><strong>Curiosidade:</strong> Capítulo final da saga, mostrando o desfecho da luta de Katniss contra o Capitol.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Jogos Vorazes: A Esperança – Parte 2 (2015)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Francis Lawrence</p>
+            <p><strong>Duração:</strong> 2h 17min</p>
+            <p><strong>Classificação Indicativa:</strong> 14 anos</p>
+            <p><strong>Curiosidade:</strong> Capítulo final da saga, mostrando o desfecho da luta de Katniss contra o Capitol.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=vaPZvcqWsyc" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Exército de Ladrões (2021)</h2>
-          <p><strong>Diretor:</strong> Matthias Schweighöfer</p>
-          <p><strong>Duração:</strong> 2h 10min</p>
-          <p><strong>Classificação Indicativa:</strong> 14 anos</p>
-          <p><strong>Curiosidade:</strong> Prequel de “Army of the Dead”, mostrando as habilidades de Ludwig Dieter antes do apocalipse zumbi.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Exército de Ladrões (2021)</h2>
+          <div>
+            <p><strong>Diretor:</strong> Matthias Schweighöfer</p>
+            <p><strong>Duração:</strong> 2h 10min</p>
+            <p><strong>Classificação Indicativa:</strong> 14 anos</p>
+            <p><strong>Curiosidade:</strong> Prequel de “Army of the Dead”, mostrando as habilidades de Ludwig Dieter antes do apocalipse zumbi.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=6h2lXz6V6uE" target="_blank">Trailer ↗</a>
         </article>
-        <hr>
-        <article>
-          <h2>Até o Último Homem (2016)</h2>
-          <p><strong>Diretor:</strong> Mel Gibson</p>
-          <p><strong>Duração:</strong> 2h 19min</p>
-          <p><strong>Classificação Indicativa:</strong> 16 anos</p>
-          <p><strong>Curiosidade:</strong> Baseado em uma história real, conta a coragem do soldado Desmond Doss, que salvou dezenas de colegas sem jamais disparar uma arma durante a Segunda Guerra Mundial.</p>
+        
+        <article class="movie-card">
+          <h2 class="title">Até o Último Homem (2016)</h2>
+          <div> 
+            <p><strong>Diretor:</strong> Mel Gibson</p>
+            <p><strong>Duração:</strong> 2h 19min</p>
+            <p><strong>Classificação Indicativa:</strong> 16 anos</p>
+            <p><strong>Curiosidade:</strong> Baseado em uma história real, conta a coragem do soldado Desmond Doss, que salvou dezenas de colegas sem jamais disparar uma arma durante a Segunda Guerra Mundial.</p>
+          </div>
 
           <a href="https://www.youtube.com/watch?v=4Zq2z5q8Z6s" target="_blank">Trailer ↗</a>
         </article>

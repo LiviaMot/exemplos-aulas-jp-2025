@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #666666;
+  font-family: "Chiron GoRound TC", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #9b4040;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  padding: 1.2rem;
+}
+
+header > h1 {
+  font-weight: 800;
+  font-size: 2.7rem;
+  color: #F0F0F0;
+}
+
+/* Main */
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+
+  padding: 30px;
+}
+
+.movie-card {
+  background-color: #F5F5F5;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: all 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #000000;
+}
+
+.movie-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  margin: 1.5rem auto;
+}
+
+.movie-card div p strong {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+.movie-card > a {
+  font-size: 1.4rem;
+  color: #C6C6C6;
+  text-decoration: none;
+  text-align: center;
+
+  background-color: #333333;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+  
+  margin-top: auto;
+  align-self: center;
+
+  transition: all 0.2s ease;
+}
+
+.movie-card > a:hover {
+  background-color: #555555;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(155, 64, 64);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px 15px;
+}
+
+footer > p {
+  color: #F0F0F0;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+
+footer strong {
+  font-weight: 600;
+  color: #ffffff;
+}
