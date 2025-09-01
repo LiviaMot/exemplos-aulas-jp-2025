@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: #666666;
+  font-family: "Chiron GoRound TC", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: rgb(155, 64, 64);
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  padding: 1.2rem;
+}
+
+header > h1 {
+  font-weight: 800;
+  font-size: 2.7rem;
+  color: #F0F0F0;
+}
+
+/* Main */
+main {
+  flex: 1;
+}
+
+.music-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+
+  padding: 30px;
+}
+
+.music-card {
+  background-color: #C6C6C6;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+
+  padding: 25px;
+
+  transition: all 0.5s ease;
+}
+
+.music-card:hover {
+  transform: scale(1.05);
+}
+
+.music-card h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.music-card p > strong {
+  font-size: 1.0rem;
+  color: #333333;
+}
+
+.music-card img {
+  border-radius: 15px;
+}
+
+.music-card a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #C6C6C6;
+  text-align: center;
+
+  background-color: #333333;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: auto;
+  align-self: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.music-card a:hover {
+  background-color: #555555;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(155, 64, 64);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 25px 15px;
+}
+
+footer > p {
+  color: #F0F0F0;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+
+footer strong {
+  font-weight: 600;
+  color: #ffffff;
+}
